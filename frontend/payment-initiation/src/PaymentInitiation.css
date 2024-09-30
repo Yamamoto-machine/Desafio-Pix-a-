@@ -1,0 +1,44 @@
+/* src/PaymentInitiation.css */
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff; /* Fundo azul */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2180a5; /* Um verde mais escuro para o botão */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d2d69; /* Um verde ainda mais escuro ao passar o mouse */
+}
